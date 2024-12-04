@@ -96,6 +96,48 @@ nav {
 #search {
     width: 20%;
 }
+/* main section related styles */
+
+.main-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.main-section-content{
+    width: 600px;
+    width: 500px;
+}
+.main-section-content h2{
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.main-section-content p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.main-section-content ul{
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-primary{
+    width: 250px;
+    font-size: 30px;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #441202;
+}
+.main-section-container img{
+    width: 550px;
+    height: 550px;
+}
 /* smaller devices */
 @media screen and (max-width:576px) {
     nav {
@@ -139,6 +181,38 @@ nav {
         width: 250px;
         justify-content: center;
         font-weight: 800;
+    }
+    /* main section1 */
+    .main-section-container{
+        flex-direction: column;
+    }
+    .main-section-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+    .main-section-content h2{
+        font-size: 35px;
+        color: var(--primary-color);
+    }
+    .main-section-content p{
+        font-size: 13px;
+        width: 300px;
+    }
+    .main-section-content ul{
+        font-size: 13px;
+        width: 300px;
+    }
+    .btn-primary{
+        width: 200px;
+        padding: 10px;
+    }
+    .main-section-container img{
+        width: 90%;
+        height: 90%;
+        margin: 20px;
     }
 }
 
@@ -184,5 +258,35 @@ nav {
 
     #search {
         width: 10%;
+    }
+    /* main section1 */
+    .main-section-container{
+        flex-direction: column;
+    }
+    .main-section-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .main-section-content h2{
+        font-size: 45px;
+    }
+    .main-section-content p{
+        font-size: 18px;
+        width: 550px;
+    }
+    .main-section-content ul{
+        font-size: 18px;
+        width: 500px;
+    }
+    .btn-primary{
+        width: 220px;
+        padding: 20px;
+    }
+    .main-section-container img{
+        width: 80%;
+        height: 80%;
     }
 }
