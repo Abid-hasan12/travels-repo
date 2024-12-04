@@ -96,32 +96,38 @@ nav {
 #search {
     width: 20%;
 }
+
 /* main section related styles */
 
-.main-section-container{
+.main-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin-top: 50px;
 }
-.main-section-content{
+
+.main-section-content {
     width: 600px;
     width: 500px;
 }
-.main-section-content h2{
+
+.main-section-content h2 {
     font-size: 45px;
     color: var(--primary-color);
 }
-.main-section-content p{
+
+.main-section-content p {
     font-size: 18px;
     font-weight: 300;
 }
-.main-section-content ul{
+
+.main-section-content ul {
     font-size: 18px;
     font-weight: 400;
 }
-.btn-primary{
+
+.btn-primary {
     width: 250px;
     font-size: 30px;
     border: 0;
@@ -131,13 +137,106 @@ nav {
     background-color: var(--primary-color);
     cursor: pointer;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #441202;
 }
-.main-section-container img{
+
+.main-section-container img {
     width: 550px;
     height: 550px;
 }
+
+/* main section2 */
+.main-section2-container{
+    margin-top: 50px;
+}
+.secton2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secton2-content h2{
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.secton2-content p{
+    width: 650px;
+    height: 50px;
+    display: flex;
+}
+.section2-places {
+    display: grid;
+    grid-template-areas:
+        "item-1 item-1 item-2 item-2"
+        "item-3 item-4 item-4 item-5"
+        "item-6 item-7 item-7 item-7";
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section2-places div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.item-1 {
+    grid-area: item-1;
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-2 {
+    grid-area: item-2;
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-3 {
+    grid-area: item-3;
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-4 {
+    grid-area: item-4;
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-5 {
+    grid-area: item-5;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-6 {
+    grid-area: item-6;
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-7 {
+    grid-area: item-7;
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* smaller devices */
 @media screen and (max-width:576px) {
     nav {
@@ -182,38 +281,64 @@ nav {
         justify-content: center;
         font-weight: 800;
     }
+
     /* main section1 */
-    .main-section-container{
+    .main-section-container {
         flex-direction: column;
     }
-    .main-section-content{
+
+    .main-section-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 350px;
     }
-    .main-section-content h2{
+
+    .main-section-content h2 {
         font-size: 35px;
         color: var(--primary-color);
     }
-    .main-section-content p{
+
+    .main-section-content p {
         font-size: 13px;
         width: 300px;
     }
-    .main-section-content ul{
+
+    .main-section-content ul {
         font-size: 13px;
         width: 300px;
     }
-    .btn-primary{
+
+    .btn-primary {
         width: 200px;
         padding: 10px;
     }
-    .main-section-container img{
+
+    .main-section-container img {
         width: 90%;
         height: 90%;
         margin: 20px;
     }
+    /* main section2 */
+    .secton2-content h2{
+        font-size: 25px;
+    }
+    .secton2-content p{
+        width: 100%;
+        height: 100%;
+    }
+    .section2-places {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: aliceblue;
+    }
+    .section2-places div{
+        height: 350px;
+    }
+    
 }
 
 /* medium devices */
@@ -259,34 +384,59 @@ nav {
     #search {
         width: 10%;
     }
+
     /* main section1 */
-    .main-section-container{
+    .main-section-container {
         flex-direction: column;
     }
-    .main-section-content{
+
+    .main-section-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .main-section-content h2{
+
+    .main-section-content h2 {
         font-size: 45px;
     }
-    .main-section-content p{
+
+    .main-section-content p {
         font-size: 18px;
         width: 550px;
     }
-    .main-section-content ul{
+
+    .main-section-content ul {
         font-size: 18px;
         width: 500px;
     }
-    .btn-primary{
+
+    .btn-primary {
         width: 220px;
         padding: 20px;
     }
-    .main-section-container img{
+
+    .main-section-container img {
         width: 80%;
         height: 80%;
+    }
+    /* main section 2 */
+    .secton2-content h2{
+        font-size: 25px;
+    }
+    .secton2-content p{
+        width: 576px;
+        font-size: 16px;
+    }
+    .section2-places {
+        display: grid;
+        grid-template-columns: repeat(2, 1f);
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: aliceblue;
+    }
+    .section2-places div{
+        height: 300px;
     }
 }
