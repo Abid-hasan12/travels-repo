@@ -154,19 +154,19 @@ nav {
     margin-top: 50px;
 }
 
-.secton2-content {
+.section2-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.secton2-content h2 {
+.section2-content h2 {
     font-size: 45px;
     color: var(--primary-color);
 }
 
-.secton2-content p {
+.section2-content p {
     width: 650px;
     height: 50px;
     display: flex;
@@ -418,11 +418,11 @@ nav {
     }
 
     /* main section2 */
-    .secton2-content h2 {
+    .section2-content h2 {
         font-size: 25px;
     }
 
-    .secton2-content p {
+    .section2-content p {
         width: 100%;
         height: 100%;
         text-align: center;
@@ -441,7 +441,7 @@ nav {
     }
 
 
-    /* main sectiom 3 */
+    /* main section 3 */
     .section3-description {
         width: 100%;
     }
@@ -564,11 +564,11 @@ nav {
     }
 
     /* main section 2 */
-    .secton2-content h2 {
+    .section2-content h2 {
         font-size: 25px;
     }
 
-    .secton2-content p {
+    .section2-content p {
         width: 576px;
         font-size: 16px;
     }
