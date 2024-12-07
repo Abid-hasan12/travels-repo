@@ -448,7 +448,7 @@ nav {
 }
 
 
-/* sectiom 5b related styles */
+/* section 5 related styles */
 
 .section5-container {
     width: 95%;
@@ -459,7 +459,7 @@ nav {
     gap: 40px;
 }
 
-.section5-cotent {
+.section5-content {
     width: 550px;
     height: 450px;
     display: flex;
@@ -467,17 +467,17 @@ nav {
     justify-content: center;
 }
 
-.section5-cotent h2 {
+.section5-content h2 {
     font-size: 30px;
     color: var(--primary-color);
 }
 
-.section5-cotent p {
+.section5-content p {
     font-size: 22px;
     text-align: center;
 }
 
-.section5-cotent>ul li {
+.section5-content>ul li {
     font-size: 18px;
 }
 
@@ -784,7 +784,7 @@ nav {
         font-size: 25px;
     }
 
-    /* sectiom 5b related styles */
+    /* section 5 related styles */
 
     .section5-container {
         flex-direction: column;
@@ -792,11 +792,11 @@ nav {
         gap: 40px;
     }
 
-    .section5-cotent {
+    .section5-content {
         width: 100%;
     }
 
-    .section5-cotent h2 {
+    .section5-content h2 {
         text-align: center;
     }
 
