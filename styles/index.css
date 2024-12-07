@@ -417,7 +417,7 @@ nav {
 .section4-content h4 {
     font-size: 21px;
     font-weight: 900;
-    color:blueviolet;
+    color: blueviolet;
 }
 
 .section4-see-all,
@@ -447,10 +447,64 @@ nav {
     background-color: var(--primary-color);
 }
 
+
+/* sectiom 5b related styles */
+
+.section5-container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 30px 40px 30px;
+    gap: 40px;
+}
+
+.section5-cotent {
+    width: 550px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section5-cotent h2 {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.section5-cotent p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.section5-cotent>ul li {
+    font-size: 18px;
+}
+
+.section5-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-image: url(../Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.section5-img h3 {
+    width: 270px;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
 /* smaller devices */
 
 @media screen and (max-width:576px) {
- 
+
     nav {
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -647,6 +701,26 @@ nav {
 
     .section4-content h3 {
         font-size: 25px;
+    }
+
+    /* sectiom 5b related styles */
+
+    .section5-container {
+        flex-direction: column;
+        margin: 40px auto 40px auto;
+        gap: 40px;
+    }
+
+    .section5-cotent {s
+        width: 100%;
+    }
+
+    .section5-cotent h2 {
+        text-align: center;
+    }
+
+    .section5-img {
+        width: 100%;
     }
 }
 
